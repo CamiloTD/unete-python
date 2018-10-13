@@ -27,9 +27,6 @@ class Router:
 
         self.server.serve_forever()
     
-    def do_GET(self):
-        print(self.path)
-    
     def Handler (self):
 
         class BaseHandler(BaseHTTPRequestHandler):
